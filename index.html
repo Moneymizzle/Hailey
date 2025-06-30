@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Way I See You</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Hailey I Love you</h1>
+    <p>Will you Marry Me?</p>
+  </header>
+
+  <section class="chapter bg-hailey">
+    <h2>From The Very Begining: I've always loved you before I even knew it</h2>
+    <p>You walked in like it was an ordinary day surviving a life you never asked for. But for me, everything paused. It was the way you carried stillness… I felt it long before I understood it. I knew in a single moment that you are special beyond beautiful absolutly breathtaking more than i could ever ask for.</p>
+    <p>I don’t think you know how your laugh breaks me open and puts back together. It’s joy made visible. The way you can tear me open and break me with just a single glance the healing of your touch and the pure euphoria and healing i feel when im with you.</p>
+  </section>
+
+  <section class="chapter bg-hailey2">
+    <h2>Chapter Two: Beauty in Your Heart</h2>
+    <p>I don’t think you know how your laugh breaks me open and puts me back together all at once. It’s joy made visible light spilling into the quietest parts of me. It softens the edges of my day, pulls me into the moment, and reminds me how beautiful it is just to feel.
+        You carry beauty in your heart, and when I’m near you, the world feels lighter, like I’m exactly where I’m meant to be.</p>
+  </section>
+
+  <section class="chapter bg-hailey3">
+    <h2>Chapter Three: Keep Moving Forward Together</h2>
+    <p>No matter where life takes us, or how winding the road becomes, let’s keep moving forward not just side by side, but as one. With your hand in mine and our hearts always reaching for each other, we can face anything. I don’t just want to walk through this life I want to walk it with you</p>
+  </section>
+
+  <footer>
+    <p>Made with all my love be with me till the end of time and when that moment draws near promise me we'll do it over again from this life to the next forever by your side. –Lamar</p>
+  </footer>
+</body>
+</html>
+<button id="play-music">I love you • Press here!</button>
+
+<audio id="bg-music" loop>
+  <source src="assets/Married.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const music = document.getElementById('bg-music');
+    const playBtn = document.getElementById('play-music');
+  
+    playBtn.addEventListener('click', () => {
+      music.play().then(() => {
+        playBtn.style.display = 'none';
+      }).catch(error => {
+        console.log('Error playing audio:', error);
+      });
+    });
+  </script>
+  
+  
+  
+
+  
+  
+  
+  

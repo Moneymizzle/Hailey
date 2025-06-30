@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    line-height: 1.7;
+    padding: 2rem;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #ffd1dc;
+    margin-bottom: 0.2em;
+  }
+  
+  h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ffc3a0;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .chapter {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #ffc3a0;
+    border-radius: 6px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+    color: #888;
+  }
+  
+  .bg-hailey {
+    background-image: url('assets/Hailey.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-hailey::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 1;
+  }
+  
+  .bg-hailey > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .bg-hailey2 {
+    background-image: url('assets/Hailey2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-hailey2::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 1;
+  }
+  
+  .bg-hailey2 > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .bg-hailey3 {
+    background-image: url('assets/Hailey3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-hailey3::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .bg-hailey3 > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  #play-music {
+    position: fixed; /* stays visible when scrolling */
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffc3a0;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 999; /* makes sure it's on top */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
